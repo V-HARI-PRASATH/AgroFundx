@@ -1,0 +1,35 @@
+.profilediv{
+    width: 1300px;
+    height: 650px;
+    background-color: white;
+    opacity: 80%;
+    border-radius: 30px;
+    position: absolute;
+    overflow: auto;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.profilediv::-webkit-scrollbar {
+    width: 0;
+  }
+.profilediv img{
+    width: 150px;
+}
+.profilediv table{
+    background-color: rgb(71, 71, 71);
+    color: white;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+.profilediv td{
+    border: 1px solid white;
+    padding: 20px 70px;
+}
+
+.profilediv .spe{
+    background-color: rgb(52, 44, 44);
+
+}
+.profilediv tr:hover{
+    background-color: rgb(199, 99, 99);
+}

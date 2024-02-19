@@ -1,0 +1,33 @@
+.trainer{
+    width: 90%;
+    height: 340px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin: 34px;
+    border: .5px solid black;
+    float: left;
+    opacity: 100%;
+    display:flex;
+}
+.trainer img{
+    width: auto;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.trainer h1{
+    margin: 10px;
+}
+.trainer h2{
+    margin: 10px;
+}
+.trainer p{
+    margin: 10px;
+}
+.trainertext{
+    margin-left: 15%;
+    color: white;
+    margin-top: 5%;
+
+}

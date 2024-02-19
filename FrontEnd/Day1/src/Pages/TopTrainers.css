@@ -1,0 +1,19 @@
+.toptrainer{
+    position: absolute;
+    height: 670px;
+    margin-top: 45px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.alltrainers::-webkit-scrollbar {
+    width: 0px;
+  }
+.alltrainers{
+    width: 1300px;
+    height: 100%;
+    background-color: white;
+    opacity: 80%;
+    border-radius: 30px;
+    position: relative;
+    overflow: auto;
+}

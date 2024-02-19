@@ -1,0 +1,96 @@
+.custnavbar{
+    position: fixed;
+    z-index: 9999;
+}
+.navbar
+{
+    float: right;
+    width: 1540px;
+    height: 40px;
+    background-color: white;
+}
+.profile{
+    float: right;
+    border-radius: 50px;
+    border-width: 0px;
+    margin-right: 10px;
+}
+.profileele{
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    border: .5px solid black;
+    border-radius: 20px;
+    float: left;
+    color:black;
+}
+.sprofileele{
+    height: 80px;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    border: .5px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.profileele:hover{
+    background-color: black;
+    color: white;
+}
+.profileboxvis{
+    float: right;
+    height: 170px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    display: block;
+}
+.profileboxhide{
+    float: right;
+    height: 170px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    display: none;
+}
+.ele{
+    height: 40px;
+    width: 150px;
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    float:left;
+}
+.ele:hover{
+    color: white;
+    background-color: black;
+}
+.sele
+{
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    float:left;
+}
+.navbar .custbtn{
+    float: right;
+    height: 40px;
+}
+.profname{
+    float: right;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+}

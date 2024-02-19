@@ -1,0 +1,30 @@
+.about{
+    position: absolute;
+    overflow: auto;
+    height: 670px;
+    margin-top: 45px;
+    padding-left: 270px;
+    padding-right: 250px;
+}
+.about::-webkit-scrollbar {
+    width: 0;
+  }
+.section{
+    width: 1000px;
+    height: 930px;
+    background-color: white;
+    opacity: 80%;
+    border-radius: 30px;
+    position: relative;
+}
+.section h1{
+    margin-left: 30px;
+    color: darkblue;
+}
+.section h2{
+    margin-left: 30px;
+    color: darkblue;
+}
+.section h3{
+    margin-left: 30px;
+}

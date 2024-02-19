@@ -1,0 +1,45 @@
+.h{
+    text-align: center;
+}
+
+.f1{
+    width: 40%;
+    height: 200px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: aliceblue;
+}
+.f1:hover{
+    width: 40%;
+    height: 200px;
+    text-align: center;
+}
+#fs{
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    height: 40px;
+    width: 20%;
+    font-size: 18px;
+}
+.fe{
+    width: 10%;
+    height: 20px;
+}
+
+.f{
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+}
+.aadi{
+    position: absolute;
+    background-color: white;
+    opacity: 80%;
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 240px;
+    border-radius: 50px;
+}
