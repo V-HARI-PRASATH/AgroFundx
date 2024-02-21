@@ -1,0 +1,24 @@
+.eachschedule{
+    color:white;
+    width: 90%;
+    background-color: rgb(85, 85, 241);
+    height: 65px;
+    margin: 10px;
+}
+.eachschedule h3{
+    color: white;
+    margin: 0px;
+    margin-left: 5px;
+    text-align: left;
+}
+.eachschedule h4{
+    color: yellow;
+    margin: 0px;
+    margin-left: 5px;
+    text-align: left;
+}
+.eachschedule h5{
+    margin: 0px;
+    margin-right: 5px;
+    text-align: right;
+}

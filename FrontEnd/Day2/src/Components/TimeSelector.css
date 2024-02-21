@@ -1,0 +1,19 @@
+/* TimeSelector.css */
+
+.time-selector-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .time-input {
+    width: 150px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+  }
+  
+  /* Add more styles as needed */
+  

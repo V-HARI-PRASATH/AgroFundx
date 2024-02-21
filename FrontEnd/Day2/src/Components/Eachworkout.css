@@ -1,0 +1,17 @@
+.eachwork{
+    color: white;
+    background-color: black;
+    width: 600px;
+    height: 175px;
+    border-radius: 25px;
+    margin: 25px;
+    float: left;
+}
+.eachwork .progress{
+    float: left;
+    padding: 25px;
+}
+
+.eachwork .wtext{
+    float: left;
+}

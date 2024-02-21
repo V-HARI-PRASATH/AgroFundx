@@ -1,0 +1,11 @@
+.bg{
+  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFl9LCT9ss2vOdw4WIIqR4BlUeNqqlTAH5-w&usqp=CAU"); */
+  height: 100vh;
+  width: 100vw;
+  margin-top: 0;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-color: black;
+  background-attachment: fixed;
+  position: relative;
+}

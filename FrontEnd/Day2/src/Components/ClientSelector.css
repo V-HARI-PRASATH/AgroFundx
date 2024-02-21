@@ -1,0 +1,27 @@
+/* ClientSelector.css */
+
+.client-selector-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f0f0f0; /* Background color */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    display: inline-block; /* Make the container inline-block for sizing */
+  }
+  
+  .client-dropdown {
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+    background-color: #fff; /* Background color */
+  }
+  
+  .selected-client {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  

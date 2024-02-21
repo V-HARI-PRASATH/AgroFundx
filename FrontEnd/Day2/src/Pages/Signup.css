@@ -1,0 +1,61 @@
+.signup{
+    background-color: white;
+    opacity: 80%;
+    height: 600px;
+    width: 700px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 400px;
+    border-radius: 10%;
+}
+.signup h1{
+    font-size: 35px;
+}
+.signup .role{
+    background-color: white;
+    width: 120px;
+    height: 40px;
+    font-size: 22px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+    float: left;
+}
+.signup .role:hover{
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 40px;
+    font-size: 22px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.signup .role:active{
+    background-color: white;
+    color: black;
+    width: 120px;
+    height: 40px;
+    font-size: 22px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+    float: left;
+}
+.signup .srole{
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 40px;
+    font-size: 22px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+    float: left;
+}
+.signup .roles{
+    width: 270px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

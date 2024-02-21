@@ -1,0 +1,31 @@
+.inptxt input{
+    height: 50px;
+    width: 300px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+    outline: none;
+}
+.inptxt input:focus{
+    border-color: blue;
+}
+.inptxt p{
+    margin: 0%;
+    height: 22px;
+    color: red;
+}
+.err{
+    border-color: red;
+}
+p.weak{
+    color: red;
+}
+p.medium{
+    color: orange;
+}
+p.strong{
+    color: lightgreen;
+}
+p.verystrong{
+    color: green;
+}

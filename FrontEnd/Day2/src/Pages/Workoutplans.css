@@ -1,0 +1,12 @@
+.dass{
+    width: 1300px;
+    height: 500px;
+    background-color: white;
+    opacity: 80%;
+    border-radius: 30px;
+    position: absolute;
+    overflow: auto;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
