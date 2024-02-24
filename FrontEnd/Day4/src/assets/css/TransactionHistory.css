@@ -1,0 +1,84 @@
+/* TransactionHistory.css */
+
+:root {
+    --primary-color: #34db3c; /* Blue color */
+    --secondary-color: #e74c3c; /* Red color */
+    --background-color: #ecf0f1; /* Light gray background color */
+  }
+  
+  .history-container {
+    max-width: 1250px;
+    margin: 70px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: var(--background-color);
+    overflow-y: auto;
+    max-height: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow added */
+
+  }
+  .history-container::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  .history-heading {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .history-table {
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0.1, 0.1, 0.1, 0.1); /* Box shadow added */
+
+  }
+  
+  .history-header,
+  .history-cell {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .history-header {
+    background-color: #f2f2f2;
+  }
+  
+  .withdrawn-entry,
+  .paid-entry {
+    background-color: inherit;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .withdrawn-entry:hover,
+  .paid-entry:hover {
+    background-color: var(--primary-color);
+  }
+  
+  .withdrawn-entry {
+    background-color: var(--primary-color);
+  }
+  
+  .paid-entry {
+    background-color: var(--secondary-color);
+  }
+  
+  .view-more-button {
+    display: block;
+    margin: 20px auto;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .view-more-button:hover {
+    background-color: #2980b9;
+  }
+  

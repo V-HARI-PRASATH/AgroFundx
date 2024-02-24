@@ -1,0 +1,107 @@
+/* Define base colors */
+:root {
+    --primary-color: #3498db;  /* Blue color */
+    --background-color: #ecf0f1; /* Light gray background color */
+    --text-color: #333;        /* Text color for most elements */
+    --secondary-text-color: #777; /* Text color for less prominent elements */
+  }
+  
+  /* Container for loan schemes */
+  .schemes-container {
+    max-width: 1250px;
+    margin: 70px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: var(--background-color);
+    overflow-y: auto;
+    max-height: 600px;
+  }
+  .schemes-container::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  
+  /* Heading for loan schemes */
+  .schemes-heading {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  /* List of loan scheme cards */
+  .schemes-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribute cards evenly */
+    gap: 20px;
+  }
+  
+  /* Individual loan scheme card */
+  .scheme-card {
+    flex: 0 0 45.5%; /* Set width to 48% to fit two per row */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    text-decoration: none;
+    color: #fff;
+    transition: transform 0.3s ease-in-out;
+    float: left;
+    background: linear-gradient(45deg, #1976D2, #e91e63, #9c27b0, #FFA500); /* Dark blue, Pink, Violet, Orange gradient */
+
+  }
+  
+  .scheme-card:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Title of the loan scheme */
+  .scheme-card h2 {
+    font-size: 1.5em;
+  }
+  
+  /* Description of the loan scheme */
+  .scheme-card p {
+    margin-top: 10px;
+  }
+  
+  /* Add new scheme button (visible only to admins) */
+  .add-scheme-button {
+    display: block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .add-scheme-button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Details section within each card */
+  .scheme-details {
+    margin-top: 10px;
+  }
+  
+  .scheme-details p {
+    margin-bottom: 5px;
+  }
+  
+  /* Media queries for responsive design (example) */
+  @media (max-width: 768px) {
+    .schemes-container {
+      max-width: 100%;
+    }
+  
+    .scheme-card {
+      flex: 1; /* Make cards full width on smaller screens */
+      width: 100%;
+    }
+  }
+  
