@@ -1,0 +1,74 @@
+/* loanapproval.css */
+
+.loan-approval-page {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .loan-approval-page h2 {
+    color: #2E8B57; /* Sea green color */
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .loan-applications {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .application-card {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 200px;
+    background: linear-gradient(45deg, #1976D2, #e91e63, #9c27b0, #FFA500); /* Dark blue, Pink, Violet, Orange gradient */
+    color: #fff;
+  }
+  
+  .application-card h3 {
+    font-size: 1.5em;
+  }
+  
+  .application-card p {
+    margin: 10px 0;
+  }
+  
+  .approval-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .approval-buttonp,
+  .approval-buttonn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .approval-buttonp {
+    background-color: #2E8B57; /* Sea green color */
+    color: #fff;
+  }
+  
+  .approval-buttonn {
+    background-color: #e91e63; /* Pink color */
+    color: #fff;
+  }
+  
+  .approval-buttonp:hover {
+    background-color: #228B22; /* Forest green color */
+  }
+  
+  .approval-buttonn:hover {
+    background-color: #c2185b; /* Dark pink color */
+  }
+  

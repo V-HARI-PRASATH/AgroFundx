@@ -1,0 +1,127 @@
+.agriculture-funding-dashboard {
+  max-width: 1250px;
+  margin: 70px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+
+.loan-list-container {
+  max-width: 1000px;
+  margin: 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.loan-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+
+.loan-table th, .loan-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.loan-table th {
+  background-color: #f2f2f2;
+}
+
+.view-more-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.view-more-btn:hover {
+  background-color: #0056b3;
+}
+
+
+
+.transaction-history {
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+/* Add this CSS for the View Less button */
+.view-buttons {
+  margin-top: 10px;
+}
+
+.view-more-btn,
+.view-less-btn {
+  padding: 8px 16px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.view-less-btn {
+  background-color: #dc3545; /* Red color for View Less button */
+}
+
+
+/*me*/
+.piechart{
+  background-color: #F5F5F5;
+  width: 50%;
+  height: 270px;
+  border-radius: 10px;
+  margin: 2%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0.2, 0.2, 0.2, 0.2);
+  float: left;
+}
+.dashboardleft{
+  width: 70%;
+  box-shadow: 0 4px 8px rgba(0.2, 0.2, 0.2, 0.2);
+/* Add overflow-y: hidden to hide the scrollbar initially */
+overflow-y: hidden;
+  
+/* Add a fixed height and overflow-y: auto to enable the scrollbar when needed */
+max-height: 600px; /* Set your desired maximum height */
+overflow-y: auto;
+}
+.dashboardleft::-webkit-scrollbar {
+  width: 0px;
+}

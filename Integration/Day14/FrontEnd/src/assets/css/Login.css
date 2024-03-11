@@ -1,0 +1,27 @@
+.login
+{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 500px;
+    height: 500px;
+    text-align: center; 
+    background-color: white;
+}
+.loginimg
+{
+    height: 500px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+}
+.logindiv
+{
+    height: 500px;
+    width: 1025px;
+    border: 3px solid black;
+    border-radius: 55px;
+    margin-top: 125px;
+    margin-left: 250px;
+    display: grid;
+    grid-template-columns: 0fr 0fr;
+}
